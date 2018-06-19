@@ -1,0 +1,179 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (min-width : 1320px) {
+.dn {
+	display: none;
+}
+}
+@media only screen and (min-width: 767px) and (max-width: 769px) {
+      .top_block.bottom .item_title {
+    padding-top: 0px;
+    
+}
+    }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.image {
+	display: none;
+}
+.romb_2 {
+	display: none;
+}
+.back_img {
+	margin-top: -280px;
+}
+.triangle_right {
+	width: 800px;
+	height: 800px;
+}
+.back_img_right  {
+	margin-top: -150px;
+}
+.menu_standard {
+	display: none;
+}
+.icon-menu {
+	display: block;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.triangle {
+	width: 500px;
+	height: 500px;
+}
+.romb_1 {
+	display: none;
+}
+.back_img {
+	margin-top: -50px;
+	margin-bottom: 500px;
+}
+.services{
+	margin-top: 40px;
+}
+.number {
+	margin-left: 70px;
+}
+.title {
+	margin-left: 70px;
+}
+.title.title_header {
+	margin-left: 0px;
+}
+.dn {
+	display: none;
+}
+.top_block.bottom  {
+   display: block;
+}
+.triangle_right {
+	width: 500px;
+	height: 500px;
+}
+.back_img_right  {
+	margin-top: -50px;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	.top_block.bottom  {
+   display: inline-block;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.back_img {
+	display: none;
+}
+.back_img_right {
+	display: none;
+}
+.icon-menu span {
+	display: none;
+}
+.navigation {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.logo img {
+	height: 40px;
+}
+.products, .varanty, .contacts {
+	margin-top: 40px;
+}
+.footer {
+	text-align: center;
+}
+.footer .copyright {
+	font-size: 12px;
+	margin: 0;
+}
+.footer .logo_footer {
+	float: none;
+	display: block;
+	margin: 0;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
